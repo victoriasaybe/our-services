@@ -1,19 +1,22 @@
-root{
+:root{
 
---menu-hover:#FE8F01;
---color-general:#ffffff;
+--color-general:#e0e0e0;
 --color-titulos:#282d33;
 --color-iconos:#e0e0e0;
 --color-check:#53c3c9;
+--fondo-gris:#f7f7f7;
+--fondo-footer:#333333;
+--color-footer:#bababa;
 
 }
 
 
 
 body{
+font-family:'Catamaran', sans-serif;
 font-size:14px;
 color:var(--color-titulos);
-background:var(--color-general);
+background:#fff;
 }
 
 
@@ -22,6 +25,7 @@ header{
 background:#fff;
 padding:5px 0;
 }
+
 
 
 
@@ -41,25 +45,27 @@ color:#fff;
 
 
 
+
 .services{
 padding:80px 0;
+text-align:center;
 }
 
 .services h4{
 margin-top:20px;
 font-weight:700;
+color:var(--color-titulos);
 }
 
 .services p{
 color:#777;
-margin-bottom:20px;
 }
 
 
 
 .icon-service{
 font-size:90px;
-color:#e0e0e0;
+color:var(--color-iconos);
 display:block;
 margin-bottom:20px;
 }
@@ -69,14 +75,15 @@ margin-bottom:20px;
 .check{
 display:block;
 font-size:28px;
-color:#53c3c9;
+color:var(--color-check);
 margin-top:10px;
 }
 
 
 
+
 .section-title{
-background:#f5f5f5;
+background:var(--fondo-gris);
 padding:100px 0 60px;
 text-align:center;
 }
@@ -84,8 +91,7 @@ text-align:center;
 .section-title h2{
 font-size:34px;
 font-weight:700;
-color:#282d33;
-margin-bottom:10px;
+color:var(--color-titulos);
 }
 
 .section-title p{
@@ -94,8 +100,10 @@ color:#777;
 
 
 
+
 .information{
 padding:60px 0;
+text-align:center;
 }
 
 .information img{
@@ -104,7 +112,7 @@ margin-bottom:15px;
 
 .information h5{
 font-weight:700;
-margin-top:10px;
+color:var(--color-titulos);
 }
 
 .information p{
@@ -113,9 +121,11 @@ color:#777;
 
 
 
+
 footer{
-background:#333;
-color:#bababa;
-padding:15px 0;
+background:var(--fondo-footer);
+color:var(--color-footer);
+padding:20px 0;
 text-align:center;
+font-size:14px;
 }
